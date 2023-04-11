@@ -2,28 +2,28 @@
     <main class="main">
         <section class="home-slider position-relative pt-50">
             <div class="hero-slider-1 dot-style-1 dot-style-1-position-1">
-                     @foreach ($slides as $slide)
+         
                 <div class="single-hero-slider single-animation-wrap">
                     <div class="container">
                         <div class="row align-items-center slider-animated-1">
-                           <!--  <div class="col-lg-5 col-md-6">
+                      <div class="col-lg-5 col-md-6">
                                 <div class="hero-slider-content-2">
-                                    <h4 class="animated">Book Shop</h4>
-                                    <h2 class="animated fw-900">{{$slide->title}}</h2>
-                                    <h1 class="animated fw-900 text-brand">{{$slide->sub_title}}</h1>
-                                    <p class="animated">{{$slide->offer}}</p>
-                                    <a class="animated btn btn-brush btn-brush-3" href="{{$slide->link}}"> Shop Now </a>
+                                 
+                                    <h2 class="animated fw-900">Virtual Bookshelf</h2>
+                                    <h1 class="animated fw-900 text-brand">Buy you favourite books from here </h1>
+                                    <br>
+                                    <a class="animated btn btn-brush btn-brush-3"> Shop Now </a>
                                 </div>
-                            </div> -->
+                            </div> 
                             <div class="col-lg-7 col-md-6">
                                 <div class="single-slider-img single-slider-img-1">
-                                    <img class="animated slider-1-1" src="{{asset('assets/imgs/slider')}}/{{$slide->image}}" alt="{{$slide->title}}">
+                                    <img class="animated slider-1-1" style="width: 100%; " src="https://i.ibb.co/4jQxCKW/20542178.jpg" alt="20542178" border="0">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                             @endforeach
+
 
             </div>
             <div class="slider-arrow hero-slider-1-arrow"></div>
@@ -193,18 +193,7 @@
                 <!--End tab-content-->
             </div>
         </section>
-        <section class="banner-2 section-padding pb-0">
-            <div class="container">
-                <div class="banner-img banner-big wow fadeIn animated f-none">
-                    <img src="assets/imgs/banner/banner-4.png" alt="">
-                    <div class="banner-text d-md-block d-none">
-                        <h4 class="mb-15 mt-40 text-brand">Repair Services</h4>
-                        <h1 class="fw-600 mb-20">We're an Apple <br>Authorised Service Provider</h1>
-                        <a href="{{route('shop')}}" class="btn">Learn More <i class="fi-rs-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <section class="popular-categories section-padding mt-15 mb-25">
             <div class="container wow fadeIn animated">
                 <h3 class="section-title mb-20"><span>Popular</span> Categories</h3>
@@ -226,33 +215,7 @@
                 </div>
             </div>
         </section>
-        <section class="banners mb-15">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="banner-img wow fadeIn animated">
-                            <img src="assets/imgs/banner/banner-1.png" alt="">
-                            <div class="banner-text">
-                                <span>Smart Offer</span>
-                                <h4>Save 20% on <br>Woman Bag</h4>
-                                <a href="{{route('product.category', ['slug'=>'bag'])}}">Shop Now <i class="fi-rs-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="banner-img wow fadeIn animated">
-                            <img src="assets/imgs/banner/banner-2.png" alt="">
-                            <div class="banner-text">
-                                <span>Sale off</span>
-                                <h4>Great Hat <br>Collection</h4>
-                                <a href="{{route('product.category', ['slug'=>'hat'])}}">Shop Now <i class="fi-rs-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+    
         <section class="section-padding">
             <div class="container wow fadeIn animated">
                 <h3 class="section-title mb-20"><span>New</span> Arrivals</h3>
@@ -299,37 +262,6 @@
             </div>
         </section>
        
-        <section class="section-padding">
-            <div class="container">
-                <h3 class="section-title mb-20 wow fadeIn animated"><span>Featured</span> Brands</h3>
-                <div class="carausel-6-columns-cover position-relative wow fadeIn animated">
-                    <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow" id="carausel-6-columns-3-arrows"></div>
-                    <div class="carausel-6-columns text-center" id="carausel-6-columns-3">
-                        <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-1.png" alt="">
-                        </div>
-                        <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-2.png" alt="">
-                        </div>
-                        <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-3.png" alt="">
-                        </div>
-                        <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-4.png" alt="">
-                        </div>
-                        <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-5.png" alt="">
-                        </div>
-                        <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-6.png" alt="">
-                        </div>
-                        <div class="brand-logo">
-                            <img class="img-grey-hover" src="assets/imgs/banner/brand-3.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         
     </main>
 </div>

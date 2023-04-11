@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-<title>Đồ án 2</title>
+<title>Virtual Bookshop</title>
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,13 +30,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-4">
                         <div class="text-center">
-                            <div id="news-flash" class="d-inline-block">
+                            {{-- <div id="news-flash" class="d-inline-block">
                                 <ul>
                                     <li>Get great devices up to 50% off <a href="shop.html">View details</a></li>
                                     <li>Supper Value Deals - Save more with coupons</li>
                                     <li>Trendy 25silver jewelry, save up 35% off today <a href="shop.html">Shop now</a></li>
                                 </ul>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4">
@@ -66,7 +66,8 @@
             <div class="container">
                 <div class="header-wrap">
                     <div class="logo logo-width-1">
-                        <a href="index.html"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a>
+                        <a href=""><h3>Virtual bookshop</h3></a>
+                        {{-- <a href="index.html"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a> --}}
                     </div>
 
                     <div class="header-right">
@@ -124,67 +125,7 @@
                         </div>
                     </div>
                     
-                    <p class="mobile-promotion">Happy <span class="text-brand">Mother's Day</span>. Big Sale Up to 40%</p>
-                    <div class="header-action-right d-block d-lg-none">
-                        <div class="header-action-2">
-                            <div class="header-action-icon-2">
-                                <a href="shop-wishlist.php">
-                                    <img alt="Surfside Media" src="assets/imgs/theme/icons/icon-heart.svg">
-                                    <span class="pro-count white">4</span>
-                                </a>
-                            </div>
-                            <div class="header-action-icon-2">
-                                <a class="mini-cart-icon" href="cart.html">
-                                    <img alt="Surfside Media" src="assets/imgs/theme/icons/icon-cart.svg">
-                                    <span class="pro-count white">2</span>
-                                </a>
-                                <div class="cart-dropdown-wrap cart-dropdown-hm2">
-                                    <ul>
-                                        <li>
-                                            <div class="shopping-cart-img">
-                                                <a href="product-details.html"><img alt="Surfside Media" src="assets/imgs/shop/thumbnail-3.jpg"></a>
-                                            </div>
-                                            <div class="shopping-cart-title">
-                                                <h4><a href="product-details.html">Plain Striola Shirts</a></h4>
-                                                <h3><span>1 × </span>$800.00</h3>
-                                            </div>
-                                            <div class="shopping-cart-delete">
-                                                <a href="#"><i class="fi-rs-cross-small"></i></a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="shopping-cart-img">
-                                                <a href="product-details.html"><img alt="Surfside Media" src="assets/imgs/shop/thumbnail-4.jpg"></a>
-                                            </div>
-                                            <div class="shopping-cart-title">
-                                                <h4><a href="product-details.html">Macbook Pro 2022</a></h4>
-                                                <h3><span>1 × </span>$3500.00</h3>
-                                            </div>
-                                            <div class="shopping-cart-delete">
-                                                <a href="#"><i class="fi-rs-cross-small"></i></a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="shopping-cart-footer">
-                                        <div class="shopping-cart-total">
-                                            <h4>Total <span>$383.00</span></h4>
-                                        </div>
-                                        <div class="shopping-cart-button">
-                                            <a href="cart.html">View cart</a>
-                                            <a href="shop-checkout.php">Checkout</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="header-action-icon-2 d-block d-lg-none">
-                                <div class="burger-icon burger-icon-white">
-                                    <span class="burger-icon-top"></span>
-                                    <span class="burger-icon-mid"></span>
-                                    <span class="burger-icon-bottom"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -303,48 +244,24 @@
     {{$slot}}
 
     <footer class="main">
-        <section class="newsletter p-30 text-white wow fadeIn animated">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 mb-md-3 mb-lg-0">
-                        <div class="row align-items-center">
-                            <div class="col flex-horizontal-center">
-                                <img class="icon-email" src="assets/imgs/theme/icons/icon-email.svg" alt="">
-                                <h4 class="font-size-20 mb-0 ml-3">Sign up to Newsletter</h4>
-                            </div>
-                            <div class="col my-4 my-md-0 des">
-                                <h5 class="font-size-15 ml-4 mb-0">...and receive <strong>$25 coupon for first shopping.</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <!-- Subscribe Form -->
-                        <form class="form-subcriber d-flex wow fadeIn animated">
-                            <input type="email" class="form-control bg-white font-small" placeholder="Enter your email">
-                            <button class="btn bg-dark text-white" type="submit">Subscribe</button>
-                        </form>
-                        <!-- End Subscribe Form -->
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <section class="section-padding footer-mid">
             <div class="container pt-15 pb-20">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="widget-about font-md mb-md-5 mb-lg-0">
                             <div class="logo logo-width-1 wow fadeIn animated">
-                                <a href="index.html"><img src="assets/imgs/logo/logo.png" alt="logo"></a>
+                                <h3>Virtual Bookshop</h3>
                             </div>
                             <h5 class="mt-20 mb-10 fw-600 text-grey-4 wow fadeIn animated">Contact</h5>
                             <p class="wow fadeIn animated">
-                                <strong>Address: </strong>562 Wellington Road
+                                <strong>Address: </strong>Uttara, Dhaka 
                             </p>
                             <p class="wow fadeIn animated">
-                                <strong>Phone: </strong>+1 0000-000-000
+                                <strong>Phone: </strong>01913644880
                             </p>
                             <p class="wow fadeIn animated">
-                                <strong>Email: </strong>contact@surfsidemedia.in
+                                <strong>Email: </strong>mahfuzurmahadi@gmail.com
                             </p>
                             <h5 class="mb-10 mt-30 fw-600 text-grey-4 wow fadeIn animated">Follow Us</h5>
                             <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0">
@@ -386,10 +303,10 @@
                                     <a href="#" class="hover-up"><img src="assets/imgs/theme/google-play.jpg" alt=""></a>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-lg-12 mt-md-3 mt-lg-0">
+                            {{-- <div class="col-md-4 col-lg-12 mt-md-3 mt-lg-0">
                                 <p class="mb-20 wow fadeIn animated">Secured Payment Gateways</p>
                                 <img class="wow fadeIn animated" src="assets/imgs/theme/payment-method.png" alt="">
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
