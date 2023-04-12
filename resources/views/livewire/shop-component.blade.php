@@ -49,7 +49,7 @@
                                             <li><a class="{{$pageSize==15 ? 'active':''}}" href="#" wire:click.prevent="changePageSize(15)">15</a></li>
                                             <li><a class="{{$pageSize==25 ? 'active':''}}" href="#" wire:click.prevent="changePageSize(25)">25</a></li>
                                             <li><a class="{{$pageSize==32 ? 'active':''}}" href="#" wire:click.prevent="changePageSize(32)">32</a></li>
-                                            {{-- <li><a href="#">All</a></li> --}}
+                                           <li><a href="#">All</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -127,16 +127,7 @@
                         <!--pagination-->
                         <div class="pagination-area mt-15 mb-sm-5 mb-lg-0">
                             {{$products->links()}}
-                            {{-- <nav aria-label="Page navigation example">
-                                <ul class="pagination justify-content-start">
-                                    <li class="page-item active"><a class="page-link" href="#">01</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">02</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">03</a></li>
-                                    <li class="page-item"><a class="page-link dot" href="#">...</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">16</a></li>
-                                    <li class="page-item"><a class="page-link" href="#"><i class="fi-rs-angle-double-small-right"></i></a></li>
-                                </ul>
-                            </nav> --}}
+                            
                         </div>
                     </div>
                     <div class="col-lg-3 primary-sidebar sticky-sidebar">
@@ -175,14 +166,7 @@
                             </div>
                             @endforeach
                         </div>
-                        <div class="banner-img wow fadeIn mb-45 animated d-lg-block d-none">
-                            <img src="{{ asset('assets/imgs/banner/banner-11.jpg') }}" alt="">
-                            <div class="banner-text">
-                                <span>Women Zone</span>
-                                <h4>Save 17% on <br>Office Dress</h4>
-                                <a href="shop.html">Shop Now <i class="fi-rs-arrow-right"></i></a>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

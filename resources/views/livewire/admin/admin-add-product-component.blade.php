@@ -7,7 +7,6 @@
             display: block;
         }
     </style>
-    {{-- Close your eyes. Count to one. That is how long forever feels. --}}
     <main class="main">
         <div class="page-header breadcrumb-wrap">
             <div class="container">
